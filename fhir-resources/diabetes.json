@@ -1713,7 +1713,7 @@
           }
         ],
         "medicationReference": {
-          "reference": "Medication/12345",
+          "reference": "#12345",
           "display": "Aspirin / Dipyridamole Oral Capsule [Aggrenox]"
         },
         "dosage": [
@@ -1762,7 +1762,7 @@
           }
         ],
         "medicationReference": {
-          "reference": "Medication/12345",
+          "reference": "#12345",
           "display": "Aspirin / Dipyridamole Oral Capsule [Aggrenox]"
         },
         "dosage": [
@@ -1811,7 +1811,7 @@
           }
         ],
         "medicationReference": {
-          "reference": "Medication/123456",
+          "reference": "#123456",
           "display": "Atorvastatin 20 MG [Lipitor]"
         },
         "dosage": [
@@ -1860,7 +1860,7 @@
           }
         ],
         "medicationReference": {
-          "reference": "Medication/123456",
+          "reference": "#123456",
           "display": "Atorvastatin 20 MG [Lipitor]"
         },
         "dosage": [
@@ -1899,7 +1899,7 @@
           }
         ],
         "medicationReference": {
-          "reference": "Medication/1234567",
+          "reference": "#1234567",
           "display": "Captopril 25 MG Oral Tablet [Capoten]"
         },
         "dosage": [
@@ -1941,7 +1941,7 @@
           }
         ],
         "medicationReference": {
-          "reference": "Medication/1234567",
+          "reference": "#1234567",
           "display": "Captopril 25 MG Oral Tablet [Capoten]"
         },
         "dosage": [
