@@ -94,8 +94,7 @@
 					"display": "Negative"
 				}]
 			},
-			"status": "final",
-			"reliability": "ok"
+			"status": "final"
 		}
 	},{
 		"resource": {
@@ -133,8 +132,7 @@
 					"display": "Positive"
 				}]
 			},
-			"status": "final",
-			"reliability": "ok"
+			"status": "final"
 		}
 	},{
 		"resource": {
@@ -172,8 +170,7 @@
 					"display": "Positive"
 				}]
 			},
-			"status": "final",
-			"reliability": "ok"
+			"status": "final"
 		}
 	},{
 		"resource": {
@@ -197,8 +194,7 @@
 				"system": "http://unitsofmeasure.org",
 				"code": "10*3/uL"
 			},
-			"status": "final",
-			"reliability": "ok"
+			"status": "final"
 		}
 	},{
 		"resource": {
@@ -222,8 +218,7 @@
 				"system": "http://unitsofmeasure.org",
 				"code": "10*3/uL"
 			},
-			"status": "final",
-			"reliability": "ok"
+			"status": "final"
 		}
 	},{
 		"resource": {
@@ -249,8 +244,7 @@
 					"code": "mL/min"
 				}
 			},
-			"status": "final",
-			"reliability": "ok"
+			"status": "final"
 		}
 	},{
 		"resource": {
