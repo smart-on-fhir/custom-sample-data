@@ -1,7 +1,8 @@
 {
 	"resourceType": "Bundle",
 	"type": "transaction",
-	"entry": [{
+	"entry": [
+        {
 		"resource": {
 			"resourceType": "Patient",
 			"id": "hca-pat-64",
@@ -35,8 +36,13 @@
 				"state": "TN",
 				"country": "USA"
 			}]
-		}
-	},{
+	},
+    "request": {
+        "method": "PUT",
+        "url": "Patient/hca-pat-64"
+      }
+    },
+    {
 		"resource": {
 			"resourceType": "Condition",
 			"id": "hca-con-5eea1abb748f",
@@ -62,8 +68,13 @@
 					"display": "Clinical diagnosis"
 				}]
 			}
-		}
-	},{
+	},
+    "request": {
+        "method": "PUT",
+        "url": "Condition/hca-con-5eea1abb748f"
+      }
+    },
+    {
 		"resource": {
 			"resourceType": "Observation",
 			"id": "hca-obs-65251ac78939",
@@ -95,8 +106,13 @@
 				}]
 			},
 			"status": "final"
-		}
-	},{
+	},
+     "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-65251ac78939"
+      }
+        },
+    {
 		"resource": {
 			"resourceType": "Observation",
 			"id": "hca-obs-7e90050764aa",
@@ -133,8 +149,13 @@
 				}]
 			},
 			"status": "final"
-		}
-	},{
+	},
+     "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-7e90050764aa"
+      }
+        },
+    {
 		"resource": {
 			"resourceType": "Observation",
 			"id": "hca-obs-1c48907ac760",
@@ -171,8 +192,13 @@
 				}]
 			},
 			"status": "final"
-		}
-	},{
+	},
+      "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-1c48907ac760"
+      }
+        },
+    {
 		"resource": {
 			"resourceType": "Observation",
 			"id": "hca-obs-a348d1f0fa70",
@@ -195,8 +221,13 @@
 				"code": "10*3/uL"
 			},
 			"status": "final"
-		}
-	},{
+	},
+        "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-a348d1f0fa70"
+      }
+        },
+    {
 		"resource": {
 			"resourceType": "Observation",
 			"id": "hca-obs-6d3c49f29de5",
@@ -219,8 +250,13 @@
 				"code": "10*3/uL"
 			},
 			"status": "final"
-		}
-	},{
+	},
+        "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-6d3c49f29de5"
+      }
+        },
+    {
 		"resource": {
 			"resourceType": "Observation",
 			"id": "hca-obs-0f04562cdbce",
@@ -245,8 +281,13 @@
 				}
 			},
 			"status": "final"
-		}
-	},{
+	},
+     "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-0f04562cdbce"
+      }
+        },
+    { 
 		"resource": {
 			"resourceType": "Procedure",
 			"id": "hca-pro-c6f05f5b053f",
@@ -263,8 +304,13 @@
 				}],
 				"text": "Lumpectomy w/ SN"
 			}
-		}
-	},{
+	},
+ "request": {
+        "method": "PUT",
+        "url": "Procedure/hca-pro-c6f05f5b053f"
+      }
+        },
+{
 		"resource": {
 			"resourceType": "MedicationOrder",
 			"id": "hca-mpr-0dffcd228144",
@@ -281,8 +327,13 @@
 				"text": "Doxorubicin"
 			},
 			"status": "active"
-		}
-	},{
+	},
+      "request": {
+        "method": "PUT",
+        "url": "MedicationOrder/hca-mpr-0dffcd228144"
+      }
+        },
+    {
 		"resource": {
 			"resourceType": "MedicationOrder",
 			"id": "hca-mpr-acc1d1729221",
@@ -299,8 +350,13 @@
 				"text": "Cyclophosphamide (Cytoxan)"
 			},
 			"status": "active"
-		}
-	},{
+	},
+     "request": {
+        "method": "PUT",
+        "url": "MedicationOrder/hca-mpr-acc1d1729221"
+      }
+        },
+    {
 		"resource": {
 			"resourceType": "MedicationOrder",
 			"id": "hca-mpr-0d1d0613563f",
@@ -317,8 +373,13 @@
 				"text": "Paclitaxel (Taxol)"
 			},
 			"status": "active"
-		}
-	},{
+	},
+       "request": {
+        "method": "PUT",
+        "url": "MedicationOrder/hca-mpr-0d1d0613563f"
+      }
+        },
+    {
 		"resource": {
 			"resourceType": "MedicationOrder",
 			"id": "hca-mpr-d4d6fddf05d0",
@@ -335,6 +396,11 @@
 				"text": "Exemestane (Aromasin)"
 			},
 			"status": "active"
-		}
-	}]
+	},
+      "request": {
+        "method": "PUT",
+        "url": "MedicationOrder/hca-mpr-d4d6fddf05d0"
+      }
+        }
+    ]
 }

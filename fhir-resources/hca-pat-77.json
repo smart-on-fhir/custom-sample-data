@@ -35,8 +35,13 @@
 				"state": "TN",
 				"country": "USA"
 			}]
-		}
-	},{
+	},
+     "request": {
+        "method": "PUT",
+        "url": "Patient/hca-pat-77"
+      }
+    },
+    {
 		"resource": {
 			"resourceType": "Condition",
 			"id": "hca-con-fff27f452bb4",
@@ -60,10 +65,15 @@
 					"system": "http://snomed.info/sct",
 					"code": "39154008",
 					"display": "Clinical diagnosis"
-				}]
+		}]
 			}
-		}
-	},{
+	},
+    "request": {
+        "method": "PUT",
+        "url": "Condition/hca-con-fff27f452bb4"
+      }
+    },
+    {
 		"resource": {
 			"resourceType": "Observation",
 			"id": "hca-obs-a65fbad509b6",
@@ -95,7 +105,11 @@
 				}]
 			},
 			"status": "final"
-		}
+		},
+         "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-a65fbad509b6"
+      }
 	},{
 		"resource": {
 			"resourceType": "Observation",
@@ -133,7 +147,11 @@
 				}]
 			},
 			"status": "final"
-		}
+		},
+            "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-9941bc9374fc"
+      }
 	},{
 		"resource": {
 			"resourceType": "Observation",
@@ -171,7 +189,11 @@
 				}]
 			},
 			"status": "final"
-		}
+		},
+            "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-f22ab356f0b5"
+      }
 	},{
 		"resource": {
 			"resourceType": "Observation",
@@ -195,7 +217,11 @@
 				"code": "10*3/uL"
 			},
 			"status": "final"
-		}
+		},
+             "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-c70c421ee0e5"
+      }
 	},{
 		"resource": {
 			"resourceType": "Observation",
@@ -219,7 +245,11 @@
 				"code": "10*3/uL"
 			},
 			"status": "final"
-		}
+		},
+          "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-98d5b3fc9835"
+      }
 	},{
 		"resource": {
 			"resourceType": "Observation",
@@ -245,7 +275,11 @@
 				}
 			},
 			"status": "final"
-		}
+		},
+         "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-4d02130ef3ea"
+      }
 	},{
 		"resource": {
 			"resourceType": "Procedure",
@@ -263,7 +297,11 @@
 				}],
 				"text": "Modified Radical Mastectomy"
 			}
-		}
+		},
+         "request": {
+        "method": "PUT",
+        "url": "Procedure/hca-pro-75e1b4349bde"
+      }
 	},{
 		"resource": {
 			"resourceType": "MedicationOrder",
@@ -281,6 +319,10 @@
 				"text": "Exemestane (Aromasin)"
 			},
 			"status": "active"
-		}
+		},
+         "request": {
+        "method": "PUT",
+        "url": "MedicationOrder/hca-mpr-c7eb7d2cf69b"
+      }
 	}]
 }

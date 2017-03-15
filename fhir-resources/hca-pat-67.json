@@ -35,8 +35,13 @@
 				"state": "TN",
 				"country": "USA"
 			}]
-		}
-	},{
+	},
+     "request": {
+        "method": "PUT",
+        "url": "Patient/hca-pat-67"
+      }
+    },
+    {
 		"resource": {
 			"resourceType": "Condition",
 			"id": "hca-con-1c5e373a1052",
@@ -60,10 +65,15 @@
 					"system": "http://snomed.info/sct",
 					"code": "39154008",
 					"display": "Clinical diagnosis"
-				}]
+						}]
 			}
-		}
-	},{
+	},
+    "request": {
+        "method": "PUT",
+        "url": "Condition/hca-con-1c5e373a1052"
+      }
+    },
+    {
 		"resource": {
 			"resourceType": "Observation",
 			"id": "hca-obs-3fb3f88e40ce",
@@ -95,8 +105,13 @@
 				}]
 			},
 			"status": "final"
-		}
-	},{
+		},
+          "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-3fb3f88e40ce"
+      }
+	},
+    {
 		"resource": {
 			"resourceType": "Observation",
 			"id": "hca-obs-827f38d1448e",
@@ -133,8 +148,13 @@
 				}]
 			},
 			"status": "final"
-		}
-	},{
+		},
+  "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-827f38d1448e"
+      }
+	},
+    {
 		"resource": {
 			"resourceType": "Observation",
 			"id": "hca-obs-28a7df4290d7",
@@ -171,7 +191,11 @@
 				}]
 			},
 			"status": "final"
-		}
+		},
+         "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-28a7df4290d7"
+      }
 	},{
 		"resource": {
 			"resourceType": "Observation",
@@ -195,7 +219,11 @@
 				"code": "10*3/uL"
 			},
 			"status": "final"
-		}
+		},
+         "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-93c40e9babb3"
+      }
 	},{
 		"resource": {
 			"resourceType": "Observation",
@@ -219,7 +247,11 @@
 				"code": "10*3/uL"
 			},
 			"status": "final"
-		}
+		},
+         "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-74d9f1be74ef"
+         }
 	},{
 		"resource": {
 			"resourceType": "Observation",
@@ -245,7 +277,11 @@
 				}
 			},
 			"status": "final"
-		}
+		},
+         "request": {
+        "method": "PUT",
+        "url": "Observation/hca-obs-8eaf3eeb3764"
+         }
 	},{
 		"resource": {
 			"resourceType": "Procedure",
@@ -263,7 +299,11 @@
 				}],
 				"text": "Lumpectomy w/ SN"
 			}
-		}
+		},
+          "request": {
+        "method": "PUT",
+        "url": "Procedure/hca-pro-e985602f6749"
+          }
 	},{
 		"resource": {
 			"resourceType": "MedicationOrder",
@@ -281,7 +321,11 @@
 				"text": "Carboplatin (Paraplatin)"
 			},
 			"status": "active"
-		}
+		},
+          "request": {
+        "method": "PUT",
+        "url": "MedicationOrder/hca-mpr-7f416fa79b87"
+          }
 	},{
 		"resource": {
 			"resourceType": "MedicationOrder",
@@ -299,6 +343,10 @@
 				"text": "Exemestane (Aromasin)"
 			},
 			"status": "active"
-		}
+		},
+          "request": {
+        "method": "PUT",
+        "url": "MedicationOrder/hca-mpr-ee7e509ca034"
+          }
 	}]
 }
