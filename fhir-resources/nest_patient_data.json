@@ -780,9 +780,9 @@
             },
             "valueQuantity":{  
                "value":35,
-               "unit":"mg/dL ",
+               "unit":"mg/dL",
                "system":"http://unitsofmeasure.org",
-               "code":"mg/dL "
+               "code":"mg/dL"
             },
             "effectiveDateTime":"2016-01-06T20:18:00",
             "status":"final",
@@ -823,9 +823,9 @@
             },
             "valueQuantity":{  
                "value":160,
-               "unit":"mg/dL ",
+               "unit":"mg/dL",
                "system":"http://unitsofmeasure.org",
-               "code":"mg/dL "
+               "code":"mg/dL"
             },
             "effectiveDateTime":"2016-01-06T20:18:00",
             "status":"final",
@@ -1781,7 +1781,6 @@
       }
       },
       {  
-         "fullUrl":"https://fhir-api-dstu2.smarthealthit.org/Procedure/2",
          "resource":{  
             "resourceType":"Procedure",
             "id":"nest-patient-1-PRO1",
@@ -1818,7 +1817,6 @@
       }
       },
       {  
-         "fullUrl":"https://fhir-api-dstu2.smarthealthit.org/Procedure/2",
          "resource":{  
             "resourceType":"Procedure",
             "id":"nest-patient-1-PRO2",
@@ -1855,7 +1853,6 @@
       }
       },
          {
-         "fullUrl":"https://fhir-api-dstu2.smarthealthit.org/Procedure/2",
          "resource":{  
             "resourceType":"Procedure",
             "id":"nest-patient-1-PRO3",
@@ -1892,7 +1889,6 @@
       }
       },
       {  
-         "fullUrl":"https://fhir-api-dstu2.smarthealthit.org/Procedure/2",
          "resource":{  
             "resourceType":"Procedure",
             "id":"nest-patient-1-PRO4",
@@ -1930,7 +1926,6 @@
       }
       },
       {  
-         "fullUrl":"https://fhir-api-dstu2.smarthealthit.org/Procedure/2",
          "resource":{  
             "resourceType":"Procedure",
             "id":"nest-patient-1-PRO5",
@@ -1967,7 +1962,6 @@
       }
       },
       {  
-         "fullUrl":"https://fhir-api-dstu2.smarthealthit.org/Procedure/2",
          "resource":{  
             "resourceType":"Procedure",
             "id":"nest-patient-1-PRO6",
@@ -2011,9 +2005,6 @@
                "status":"generated",
                "div":"<div>!-- Snipped for Brevity --></div>"
             },
-            "issuer":{  
-               "reference":"Organization/2"
-            },
             "period":{  
                "start":"2011-03-17",
                "end":"2012-03-17"
@@ -2042,7 +2033,6 @@
       }
       },
       {  
-         "fullUrl":"https://fhir-api-dstu2.smarthealthit.org/MedicationOrder/hca-mpr-c2927c36f83f",
          "resource":{  
             "resourceType":"MedicationOrder",
             "id":"nest-patient-1-MED1",
@@ -2075,7 +2065,6 @@
       }
          },
       {  
-         "fullUrl":"https://fhir-api-dstu2.smarthealthit.org/MedicationOrder/hca-mpr-c2927c36f83f",
          "resource":{  
             "resourceType":"MedicationOrder",
             "id":"nest-patient-1-MED2",
@@ -2108,7 +2097,6 @@
       }
          },
       {  
-         "fullUrl":"https://fhir-api-dstu2.smarthealthit.org/MedicationOrder/hca-mpr-c2927c36f83f",
          "resource":{  
             "resourceType":"MedicationOrder",
             "id":"nest-patient-1-MED3",
@@ -2151,7 +2139,6 @@
       }
          },
       {  
-         "fullUrl":"https://fhir-api-dstu2.smarthealthit.org/MedicationOrder/hca-mpr-c2927c36f83f",
          "resource":{  
             "resourceType":"MedicationOrder",
             "id":"nest-patient-1-MED4",
@@ -2184,7 +2171,6 @@
       }
          },
       {  
-         "fullUrl":"https://fhir-api-dstu2.smarthealthit.org/MedicationOrder/hca-mpr-c2927c36f83f",
          "resource":{  
             "resourceType":"MedicationOrder",
             "id":"nest-patient-1-MED5",
@@ -2217,7 +2203,6 @@
       }
          },
       {  
-         "fullUrl":"https://fhir-api-dstu2.smarthealthit.org/MedicationOrder/hca-mpr-c2927c36f83f",
          "resource":{  
             "resourceType":"MedicationOrder",
             "id":"nest-patient-1-MED6",
@@ -2367,7 +2352,6 @@
                "display":"Tomy Francis"
             },
             "orderer":{  
-               "reference":"Practitioner/example",
                "display":"Dr Adam Careful"
             },
             "identifier":[  
